@@ -36,6 +36,8 @@ semantic search though amazon product utilizing reviews and descriptions
 
 [Spacy Span Categorizer (detecting entities within entities)](https://spacy.io/api/spancategorizer)
 
+[Spacy HealthSea - Making sense of user reviews](https://explosion.ai/blog/healthsea)
+
 The colab notebook "cap_proj_NER_mvp.ipynb" demonstrates an approach for identifying Product, Vendor or
 Category info in a user query.
 
