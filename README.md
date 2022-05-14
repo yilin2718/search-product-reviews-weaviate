@@ -14,6 +14,9 @@ semantic search though amazon product utilizing reviews and descriptions
 
 [Spacy Span Categorizer (detecting entities within entities)](https://spacy.io/api/spancategorizer)
 
+The colab notebook "cap_proj_NER_mvp.ipynb" demonstrates an approach for identifying Product, Vendor or
+Category info in a user query.
+
 ### Data Indexing Pipeline ###
 
 [Haystack from Deepset](https://haystack.deepset.ai/overview/intro)
