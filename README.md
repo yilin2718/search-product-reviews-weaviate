@@ -21,8 +21,7 @@
     }
 
 # search-product-reviews-weaviate
-semantic search though amazon product utilizing reviews and descriptions
-
+Semantic search through amazon product utilizing reviews and descriptions
 
 ### Datasets Used ###
 
