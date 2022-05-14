@@ -1,7 +1,9 @@
 # How to use
 
 1 Start up Weaviate: docker-compose up -d. Once completed, Weaviate is running on http://localhost:8081.
+
 2 Install requirements: pip install -r requirements.txt
+
 3 Run python import.py or use schema_import.ipynb to import 500 item of product id ('asin') and title to Weaviate. ( under construction. )
 
 4 Navigate to console.semi.technology, connect to http://localhost:8081, navigate to the query module
