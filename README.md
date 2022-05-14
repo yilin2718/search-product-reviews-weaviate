@@ -22,3 +22,6 @@ semantic search though amazon product utilizing reviews and descriptions
 
 [Weaviate](https://weaviate.io/ )
 
+### Ranking of Search Results Pipeline ###
+
+[Haystack Retriever / Reader Nodes]( https://haystack.deepset.ai/components/ready-made-pipelines#documentsearchpipeline )
