@@ -8,15 +8,31 @@
 
 5 Query example : get list of product title and id 
 
-    {
+{
       Get {
-        Product  {
-          title  
+        Product (
+          limit:1
+        ) {
+          title 
+          description
           asin
+          price
           }
         }
+}
+
+
+{
+  Get {
+    Review(limit: 3) {
+      
+      summary
+      reviewText
       
     }
+  }
+}
+
 
 # search-product-reviews-weaviate
 semantic search though amazon product utilizing reviews and descriptions
