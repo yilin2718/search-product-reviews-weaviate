@@ -24,16 +24,24 @@
 }
 
 
-{
-  Get {
-    Review(limit: 3) {
-      
-      summary
-      reviewText
+To do semantic search on finding product that is useful for pet hair : 
+
+    {
+      Get {
+        Product (
+          limit:2
+          nearText:{
+            concepts:["good for pet hair"]
+          }
+        ) {
+          title 
+          description
+          asin
+          price
+          }
+        }
       
     }
-  }
-}
 
 
 # search-product-reviews-weaviate
