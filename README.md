@@ -24,7 +24,7 @@
 }
 
 
-To do semantic search on finding product that is useful for pet hair : 
+6 To do semantic search on finding product that is useful for pet hair : 
 
     {
       Get {
